@@ -27,6 +27,7 @@ export default function App() {
             name="Tim L"
             src="https://media.licdn.com/dms/image/v2/C4E03AQGI72Unhz-tmA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1605177274081?e=1729728000&v=beta&t=QJeNH8d7QzUbeatV7PVmBUCOYZM1j_syLNTY6hdgeac"
           />
+          <Toggle a11yLabel="Allow this feature" />
         </div>
       </div>
     </div>
