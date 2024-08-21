@@ -1,0 +1,14 @@
+name: Deploy
+
+on: [push]
+
+jobs:
+  post-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Analyze design system adoption data
+        uses: zh-ski/action-design-system-adoption@main
+        env:
+          ZEROHEIGHT_CLIENT_ID: "${{ secrets.ZEROHEIGHT_CLIENT_ID }}"
+          ZEROHEIGHT_ACCESS_TOKEN: "${{ secrets.ZEROHEIGHT_ACCESS_TOKEN }}"
+ 
