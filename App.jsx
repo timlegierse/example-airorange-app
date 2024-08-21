@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar } from "@zh-engineer/airorange-react";
+import { Avatar, Toggle } from "@zh-engineer/airorange-react";
 
 export default function App() {
   return (
